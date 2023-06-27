@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Artist Details</title>
+    <link rel="shortcut icon" href="image/logobgl.png" type="image/x-icon">
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      padding-top: 50px;
+      background-color: #e9edc9;
+    }
+
+    .form-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 700px;
+      height: auto;
+      background-color: #fefae0;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-top: auto;
+      margin-bottom: 25px;
+      margin: auto;
+    }
+
+    .form-container .form-wrapper {
+      width: 60%;
+    }
+
+    .form-container .picture {
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+    
+  <div class="form-container">
+    <div class="form-wrapper">
+        <a class="br1" href="index.html">
+            <img src="image/logobgl.png" alt="brand" class="logo1">
+          </a>
+      <h3>Few More steps to register as an Artist!</h3>
+      <form>
+        <div class="mb-3">
+            <label for="selleraddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="selleraddress" placeholder="Address" required>
+          </div>
+          <div class="mb-3">
+            <label for="sellerpincode" class="form-label">Postal Code</label>
+            <input type="code" class="form-control" id="sellerpincode" placeholder="Postal code" required>
+          </div>
+          <div class="mb-3">
+            <label for="selleroccupation" class="form-label">Occupation</label>
+            <input type="text" class="form-control" id="selleroccupation" placeholder="Occupation" required>
+          </div>
+          <div class="mb-3">
+            <label for="sellerexperiece" class="form-label">Experience</label>
+            <input type="text" class="form-control" id="sellerexperience" placeholder="Enter your experience" required>
+          </div>
+          <div class="mb-3">
+            <label for="sellerDOB" class="form-label">Date Of Birth</label>
+            <input type="date" class="form-control" id="sellerDOB" placeholder="Enter a your Birth Date" required>
+          </div>
+          <div class="mb-3">
+            <label for="sellerAadhaar" class="form-label">Aadhaar Number</label>
+            <input type="number" class="form-control" id="sellerAadhaar" placeholder="Enter Your Aadhaar Number" required>
+          </div>
+          <h4>Bank Details</h4>
+          <div class="mb-3">
+            <label for="sellerPAN" class="form-label">PAN</label>
+            <input type="number" class="form-control" id="sellerPAN" placeholder="Enter Your PAN Number" required>
+          </div>
+          <div class="mb-3">
+            <label for="sellerAHN" class="form-label">Account Holder Name</label>
+            <input type="text" class="form-control" id="sellerAHN" placeholder="Enter Account Holder Nmae" required>
+          </div>
+          <div class="mb-3">
+            <label for="sellerAN" class="form-label">Bank Account Number</label>
+            <input type="number" class="form-control" id="sellerAN" placeholder="Enter Your Bank Account Number" required>
+          </div>
+          <div class="mb-3">
+            <label for="sellerBranch" class="form-label">Branch Name</label>
+            <input type="text" class="form-control" id="sellerAadhaar" placeholder="Enter Your Bank's Branch Name" required>
+          </div>
+          <div class="mb-3">
+            <label for="sellerIFSC" class="form-label">IFSC Code</label>
+            <input type="number" class="form-control" id="sellerAadhaar" placeholder="Enter Your Bank's IFSC Code" required>
+          </div>
+        <button type="submit" class="btn btn-primary">Signup</button>
+      </form>
+    </div>
+    <div class="picture">
+      <img src="image/su2.png" alt="Your Picture" style="max-width: 100%; max-height: 100%;">
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
